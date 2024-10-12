@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.links {
+  width: 100%;
+  background-color: #666;
+  height: 50px;
+  button {
+    margin-right: -5px;
+    border: none;
+    border-right: 2px solid #888;
+    width: calc(100% / 4);
+    height: 100%;
+
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .back {
+    background-color: #c9c9c9;
+  }
+}
+.text {
+  height: 100%;
+  text-align: center;
+  background-color: #666;
+  padding: 100px 50px;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hidden {
+  display: none;
+}
+
+.home {
+  background-color: green;
+  &:hover {
+    background-color: green;
+  }
+}
+
+.news {
+  background-color: orange;
+
+  &:hover {
+    background-color: orange;
+  }
+}
+
+.cont {
+  background-color: blue;
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+.about {
+  background-color: rgb(2, 98, 157);
+
+  &:hover {
+    background-color: rgb(2, 98, 157);
+  }
+}
